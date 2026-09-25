@@ -58,8 +58,8 @@ function VerficationModal({ onClose }) {
   }, [dispatch, onClose, userVerifyEmailSuccess, userDetails]);
   return (
     <div
-      className={`fixed inset-0 flex items-center justify-center z-10 bg-gray-800 bg-opacity-30 p-4 backdrop-filter backdrop-blur-sm transition-opacity duration-200 ${
-        modalVisible ? 'opacity-100' : 'opacity-0 delay-150'
+      className={`fixed inset-0 flex items-center justify-center z-10 bg-gray-800 bg-opacity-30 p-4 backdrop-filter backdrop-blur-sm transition-opacity duration-200 ease-out ${
+        modalVisible ? 'opacity-100' : 'opacity-0'
       }`}
       onClick={handleModalClose}
     >

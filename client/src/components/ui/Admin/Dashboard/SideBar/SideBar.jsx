@@ -10,7 +10,7 @@ function SideBar({
     <div
       className={`bg-orange-700 w-full sm:w-1/6 flex flex-col items-center justify-start shadow-md pt-16 sm:pt-20 p-4 transform ${
         collapsible ? 'translate-x-0' : '-translate-x-full'
-      } transition-all duration-300 ease-in-out`}
+      } transition-transform duration-300 ease-in-out`}
     >
       <h2 className="text-xl font-semibold mb-4 flex flex-row items-center">
         <i className="fas fa-gauge-high mr-2"></i>

@@ -1,4 +1,3 @@
-import React from 'react';
 import Logo from '/android-chrome-512x512.png';
 
 function AboutScreen() {

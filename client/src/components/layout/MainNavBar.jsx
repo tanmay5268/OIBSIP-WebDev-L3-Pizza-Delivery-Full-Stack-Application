@@ -162,7 +162,7 @@ function MainNavbar() {
       </nav>
       {/* // Mobile Menu */}
       {isOpen && (
-        <div className="fixed font-semibold inset-0 bg-gray-800 bg-opacity-90 flex items-center justify-center md:hidden transition-all duration-300 ease-in-out">
+        <div className="fixed font-semibold inset-0 bg-gray-800 bg-opacity-90 flex items-center justify-center md:hidden transition-opacity duration-200 ease-out">
           {/* Nav Menu Close Button */}
           <button
             type="button"

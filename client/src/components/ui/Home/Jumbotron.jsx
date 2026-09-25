@@ -21,7 +21,7 @@ function Jumbotron() {
       </p>
       <Link
         to="/menu"
-        className="bg-orange-500 hover:bg-orange-600 transition-all duration-200 text-white font-semibold px-8 py-3 rounded-full shadow-lg"
+        className="bg-orange-500 hover:bg-orange-600 transition-colors duration-200 ease-out text-white font-semibold px-8 py-3 rounded-full shadow-lg"
       >
         Order Now
       </Link>
@@ -31,7 +31,7 @@ function Jumbotron() {
         smooth={true}
         spy={true}
         duration={1000} // Duration of the smooth scroll animation
-        className="text-white absolute bottom-0 mb-12 hover:text-orange-500 transition-all duration-200"
+        className="text-white absolute bottom-0 mb-12 hover:text-orange-500 transition-colors duration-200 ease-out"
       >
         <BsChevronDoubleDown className="text-4xl animate-bounce" />
       </ScrollLink>

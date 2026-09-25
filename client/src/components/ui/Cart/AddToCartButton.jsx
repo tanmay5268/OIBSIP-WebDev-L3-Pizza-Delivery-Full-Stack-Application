@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { FaCartPlus } from 'react-icons/fa';
 import { useDispatch, useSelector } from 'react-redux';
 

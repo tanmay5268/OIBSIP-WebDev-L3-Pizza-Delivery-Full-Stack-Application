@@ -10,7 +10,7 @@ function PizzaItem({ pizza }) {
   return (
     <div
       key={pizza._id}
-      className="bg-orange-100 rounded-2xl shadow-lg overflow-hidden hover:transform hover:scale-105 transition-transform duration-500 ease-in-out"
+      className="bg-orange-100 rounded-2xl shadow-lg overflow-hidden hover:scale-[1.02] transition-transform duration-200 ease-out"
     >
       <img
         src={pizza.imageUrl}
